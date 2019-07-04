@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body ng-app="myEtdApp" ng-controller="myEtdController">
+<input type="text" ng-model="codee">
+<button ng-click="search()" >search</button>
+nom: {{etudiant.nom}}
+prenom : {{etudiant.prenom}}
+<hr>
+<h2>NEW</h2>
+groupe <input type="text" ng-model="libelle">
+<button ng-click="save()" >search</button>
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="js/myApp.js"></script>
+</body>
+</html>
